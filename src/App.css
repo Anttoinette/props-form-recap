@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: burlywood;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(4, 4, 4);
 }
 
 .App-link {
@@ -35,4 +35,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+button {
+  padding: 5px;
+  background-color: rgb(255, 104, 172);
+  color: black;
+  border-width: 7px;
+  border-style: sridge;
 }
